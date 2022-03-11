@@ -1,0 +1,64 @@
+/*Universal and root styles*/
+* {
+  background-color: black;
+  color: whitesmoke;
+
+}
+
+html {
+  font-size: 20px;
+}
+
+
+/*Header*/
+header {
+  width: 100%;
+
+}
+
+header .header-container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+header .logo img{
+  height: 10rem;
+
+}
+
+header nav {
+  display: block;
+  height: auto;
+  justify-content: center;
+
+}
+
+#nav-options {
+  display:inline;
+  text-decoration: none;
+  margin: 2rem;
+  font-family: 'Barlow', sans-serif;
+
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+}
+/*Advertisement Section*/
+
+section .advert {
+
+}
+
+.grid-advert {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-areas:
+    "" ;
+}
